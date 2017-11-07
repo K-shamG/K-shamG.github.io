@@ -1,0 +1,41 @@
+.nav a {
+  text-align: center;
+  width: 150px;
+  color: whi;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 20px 30px;
+  text-transform: uppercase;
+}
+
+.nav li {
+  display: inline;
+}
+
+.jumbotron {
+  background-image:url(background.jpg);
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+.jumbotron .container {
+  position: relative;
+  top:100px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.resume {
+ 
+  background-color: #E0B6EB;
+}
