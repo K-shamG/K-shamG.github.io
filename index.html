@@ -3,50 +3,42 @@
 
   <head>
     <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
     <link rel="stylesheet" href="main.css">
     
   </head>
+	<body>
+		<div class="streetLight">
+			<div id="mySidenav" class="sidenav">
+  				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  				<a href="#">About</a>
+  				<a href="#">Work Experience</a>
+  				<a href="#">Other Interests</a>
+  				<a href="#">Contact</a>
+			</div>
 
-  <body>
-    <div class="nav">
-      <div class="container">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="aboutme.html">About Me</a></li>
-          <li><a href="resume.html">Resume</a></li>
-        </ul>
-      </div>
-    </div>
+			<div id="main">
+  				<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+			</div>
 
-    <div class="jumbotron">
-      <div class="container">
-        <h1>Kshamina Ghelani</h1>
-        <p>B.Eng, Software</p>
-        <a href="aboutme.html">Learn More</a>
-        <img src="logo.png" height=100 width=100>
-      </div>
-    </div> 
-    <div class = "neighborhood-guides">
-        <div class = "container">
-            <h2>Learn More</h2>
-            <div class = "row">
-                <div class = "col-md-6">
-                    <div class = "thumbnail">
-                        <img src = "http://www.sce.carleton.ca/faculty/chan/_images/carleton_logo.gif">
-                    </div>
-                </div>
-                
-                <div class = "col-md-6">
-                    <div class = "thumbnail">
-                        <img src = "http://goldenmileshopping.ca/wp-content/uploads/2012/04/Girl-Guides-of-Canada.gif">
-                    </div>
-                </div>
-               
-            </div>
-        </div>
-    
-	</div>
-  </body>
+			<script>
+				function openNav() {
+				    document.getElementById("mySidenav").style.width = "250px";
+				    document.getElementById("main").style.marginLeft = "250px";
+				    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+				}
+
+				function closeNav() {
+				    document.getElementById("mySidenav").style.width = "0";
+				    document.getElementById("main").style.marginLeft= "0";
+				    document.body.style.backgroundColor = "white";
+				}
+			</script>			
+			<img class="resizeBench" src="bench-and-light-wider.jpg">
+
+		</div>
+  		<div class="parallax"></div>
+		<div class="parallax"></div>
+	</body>
 </html>
