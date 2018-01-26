@@ -1,11 +1,18 @@
 
 body, html {
     height: 100%;
+    background-color: #09c5f9;
 }
 
-.streetLight {
+.iceCream {
    /*background-image: url("stardust_@2X.png");*/
    background-color: #09c5f9;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 30px;
+   width: 20%;
+   height: auto;
 }
 
 ul.topnav {
