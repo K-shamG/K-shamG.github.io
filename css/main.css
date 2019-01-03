@@ -1,5 +1,19 @@
- html {
+:root {
+  --mainColor: purple;
+  --yellowColor: #f6a90a;
+}
+
+html {
   scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Concert One', cursive;
+	font-weight: 400; 
+}
+
+#logo {
+	padding:20px;
 }
 
  .transparent {
@@ -18,13 +32,21 @@
   text-transform: uppercase;
   font-weight: 700; 
   font-size: 2.2em; 
-  font-family: 'Concert One', cursive;
   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
 .nav-item {
 	padding-right: 2em; 
 	color: black !important; 
+}
+
+.nav-link:hover {
+  background: linear-gradient(to bottom, var(--yellowColor) 0%, var(--yellowColor) 100%);
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 3px 3px;
+  color: #f6a90a !important;
+  text-decoration: none;
 }
 
 .right {
@@ -52,21 +74,40 @@
 	font-weight: 900;
 	padding-bottom: 30px; 
 	font-size: 4em;
-	font-family: 'Concert One', cursive;
+	text-shadow: 2px 2px white;
 }
 
 #hand {
-	border: 10px dashed #f6a90a;
+/*	border-top: 10px solid #f6a90a;
+	border-left: 10px solid #f6a90a;*/
+	box-shadow: 20px 20px #f6a90a;
 }
 
 #about p {
 	padding: 30px; 
 	color: white;
 	font-size: 1.8em;
-	font-family: 'Concert One', cursive;
-	font-weight: 400;
 }
 
 #hand {
 	height: 60vh;
 }
+
+#insta {
+	color: #f6a90a;
+	margin-left: 30px; 
+	font-size: 1.8em;
+	border-bottom: 2px dotted #f6a90a; 
+	text-transform: uppercase;
+}
+
+#insta:hover {
+  background: linear-gradient(to bottom, var(--mainColor) 0%, var(--mainColor) 100%);
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 3px 3px;
+  color: purple;
+  text-decoration: none;
+}
+
+
