@@ -16,17 +16,52 @@
   <!-- Material Design Bootstrap -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.4/css/mdb.min.css" rel="stylesheet">
 
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
   <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Concert+One" rel="stylesheet">
 
 </head>
 
 <body>
-    <div class="container-fluid">
-      <img src="C:\Users\Kshamina\Desktop\Art\Lightbulb\Lightbulb.gif">
+    <!-- <div class="container-fluid main"> -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light transparent justify-content-between">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav left">
+          <a class="nav-item nav-link" href="#about">About</a>
+          <a class="nav-item nav-link" href="#work">Work</a>
+        </div>
+        <a href="#lightbulb"><img src="images/logo.png" width=200></a>
+        <div class="navbar-nav right">
+          <a class="nav-item nav-link" href="#resume">Resume</a>
+          <a class="nav-item nav-link" href="#contact">Contact</a>
+        </div>
+      </div>
+    </nav>
+    <img id="lightbulb" title="Lightbulb" alt="Lightbulb" src="images/Lightbulb.gif">
+
+    <div id="about" class="container-fluid">
+      <div class="row">
+        <div data-aos="fade-up" data-aos-duration="500" class="col">
+          <h1>A bit about me</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div data-aos="fade-in" data-aos-duration="1500" class="col-md-3 offset-md-1">
+          <img id="hand" src="images/hand.jpg">
+        </div>
+        <div data-aos="fade-in" data-aos-duration="1500" class="col-md-6 offset-md-1">
+          <p>I am a Bachelor of Software Engineering student with an Minor in Business. I love to design and create a beautiful web experience for users. I do so through full-stack websites/applications and graphic design.</p>
+        </div>
+      </div>
     </div>
+    <!-- </div> -->
     <!-- end container fluid -->
 
-    <!-- JQuery -->
+    <!-- JQuery --> 
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <!-- Bootstrap tooltips -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
