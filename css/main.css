@@ -129,3 +129,75 @@ body {
       -ms-transform: rotate(10deg);
           transform: rotate(10deg);
 }
+
+#experience {
+    background-color: #f6a90a;
+    padding: 160px 15px;
+}
+
+#experience h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 900;
+    padding-bottom: 30px;
+    font-size: 4em;
+    text-shadow: 2px 2px black;
+}
+
+.jobs {
+    padding-bottom: 10vh;
+}
+
+.jobs img {
+    height: auto;
+    width: auto;
+    max-height: 50%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.card-img-top-div {
+    background-color: red;
+    text-align: center;
+}
+
+.card-text {
+    font-size: 1.1rem !important;
+}
+
+.card-body a {
+    background-color: #6600cc !important;
+    padding: .75rem 2rem !important;
+}
+
+#contact {
+    background-color:#d4c8e2;
+    color: black;
+    padding: 5% 0;
+    height: 100vh;
+}
+
+#contact-div {
+    padding: 5% 0;
+    background-color:#d4c8e2;
+}
+
+#contact h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #6600cc;
+    padding-bottom: 30px;
+    font-size: 10em;
+    text-shadow: 4px 4px white;
+}
+
+#contact a {
+    color: #6600cc;
+    font-size: 2rem;
+}
+
+#contact .icon {
+    text-align: center;
+}
