@@ -30,6 +30,15 @@ body {
     background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
 }
 
+nav {
+    background-color: #d4c8e2;
+    padding: 15px;
+ }
+
+.navbar-default {
+    box-shadow: none;
+}
+
 .navbar-nav {
   align-items: center;
   width: 100%;
@@ -88,7 +97,7 @@ body {
 }
 
 #about p {
-	padding: 30px; 
+	padding: 30px;
 	color: white;
 	font-size: 1.8em;
 }
@@ -149,16 +158,20 @@ body {
     padding-bottom: 10vh;
 }
 
+.col-4 {
+    padding: 2vw !important;
+}
+
 .jobs img {
     height: auto;
     width: auto;
-    max-height: 50%;
+    max-height: 100%;
     max-width: 100%;
     margin: 0 auto;
 }
 
 .card-img-top-div {
-    background-color: red;
+    background-color: #e81828;
     text-align: center;
 }
 
@@ -166,7 +179,7 @@ body {
     font-size: 1.1rem !important;
 }
 
-.card-body a {
+.card-footer a {
     background-color: #6600cc !important;
     padding: .75rem 2rem !important;
 }
@@ -174,13 +187,13 @@ body {
 #contact {
     background-color:#d4c8e2;
     color: black;
-    padding: 5% 0;
-    height: 100vh;
+    padding: 8% 0;
+
 }
 
 #contact-div {
-    padding: 5% 0;
     background-color:#d4c8e2;
+    height: 100vh;
 }
 
 #contact h1 {
@@ -200,4 +213,19 @@ body {
 
 #contact .icon {
     text-align: center;
+}
+
+#contact img {
+    height: auto;
+    width: auto;
+    max-height: 100%;
+    max-width: 100%;
+    box-shadow: 10px 10px #f6a90a;
+    border-radius: 50%;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
