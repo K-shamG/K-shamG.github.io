@@ -16,12 +16,9 @@ body {
 	font-weight: 400; 
 }
 
-#logo {
-	padding:20px;
-}
-
-#logo:hover {
-
+#logoLink:hover {
+    transform: scale(1.2);
+    background: none !important;
 }
 
  .transparent {
@@ -51,10 +48,6 @@ body {
     padding: 0px;
 }
 
-#logo:hover {
-
-}
-
 .sidenav a {
     padding: 6px 25px 6px 10px;
     text-decoration: none;
@@ -62,10 +55,6 @@ body {
     color: white;
     display: block;
     text-transform: uppercase;
-}
-
-.sidenav a:hover {
-    color: #f1f1f1;
 }
 
 .main {
@@ -92,14 +81,6 @@ body {
   color: #f6a90a !important;
   text-decoration: none;
 }
-
-/*.right {*/
-/*  justify-content: flex-start;*/
-/*}*/
-
-/*.left {*/
-/*  justify-content: flex-end;*/
-/*}*/
 
 #lightbulb {
 	max-width: 100%; 
