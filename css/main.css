@@ -229,6 +229,12 @@ body {
     visibility: visible;
     opacity: 10;
     transition: opacity 1s ease;
+    text-align: center;
+}
+
+.skill-col {
+    flex: 33%;
+    padding: 0 4px;
 }
 
 #resume h1 {

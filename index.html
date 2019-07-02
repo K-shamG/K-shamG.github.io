@@ -10,7 +10,7 @@
   <meta name="author" content="Kshamina Ghelani">
 
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
   <!-- Bootstrap core CSS -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
   <!-- Material Design Bootstrap -->
@@ -78,14 +78,24 @@
           </div>
           <div class="row">
             <div class="col-4 jobs">
-              <div class="card card-hover h-80">
+              <div class="card card-hover h-70">
                 <img class="card-img-top" src="images/experience/eureka.jpg" alt="Card image cap">
                 <div class="card-body">
                   <h4 class="card-title">Luminaires Group <br>(Co-op)</h4>
                   <p class="card-text">I worked at one of the Montreal offices of Luminaires Group known as Eureka! Here I worked on a web application to keep track of the four offices' light fixture configurations. </p>
-                  <div class="reveal bg-warning p-2">
-                    This is hidden until card in hovered!<br><br><br>
-                    fjdsklfjdsklfjdsklfjsdkl
+                  <div class="reveal row">
+                    <div class="skill-col">
+                      <i class="fab fa-laravel fa-4x"></i>
+                      <p>Laravel</p>
+                    </div>
+                    <div class="skill-col">
+                      <i class="fab fa-js-square fa-4x"></i>
+                      <p>JavaScript</p>
+                    </div>
+                    <div class="skill-col">
+                      <i class="fas fa-database fa-4x"></i>
+                      <p>mySQL</p>
+                    </div>
                   </div>
                 </div>
 
@@ -93,33 +103,75 @@
             </div>
 
             <div class="col-4 jobs">
-              <div class="card h-80">
+              <div class="card card-hover h-80">
                 <img class="card-img-top" src="images/experience/opo.png" alt="Card image cap">
                 <div class="card-body">
                   <h4 class="card-title">Ottawa Pops Orchestra <br>(Part-Time)</h4>
                   <p class="card-text">I have been working since August 2018 on creating the OPO website from scratch! I worked with their marketing team to create an easy-to-use and beautiful site.  </p>
+                  <div class="reveal row">
+                    <div class="skill-col">
+                      <i class="fas fa-file-code fa-4x"></i>
+                      <p>HTML & CSS</p>
+                    </div>
+                    <div class="skill-col">
+                      <i class="fab fa-bootstrap fa-4x"></i>
+                      <p>Bootstrap</p>
+                    </div>
+                    <div class="skill-col">
+                      <i class="fas fa-cloud fa-4x"></i>
+                      <p>CloudFlare</p>
+                    </div>
+                  </div>
                 </div>
                 <div class="card-footer"><a href="https://ottawapopsorchestra.ca" class="btn btn-primary" target="_blank">ottawapopsorchestra.ca</a></div>
               </div>
             </div>
 
             <div class="col-4 jobs">
-              <div class="card h-80">
+              <div class="card card-hover h-70">
                 <img class="card-img-top" src="images/experience/logo_groceR_dark.jpg" alt="Card image cap">
                 <div class="card-body">
                   <h4 class="card-title">GroceR <br>(School)</h4>
                   <p class="card-text">During my final year of my degree, my group and I created a web and mobile application to make grocery shopping easier through NFC. My section was the web app which allowed customers to browse products from home. </p>
+                  <div class="reveal row">
+                    <div class="skill-col">
+                      <i class="fab fa-laravel fa-4x"></i>
+                      <p>Laravel</p>
+                    </div>
+                    <div class="skill-col">
+                      <i class="fas fa-exchange-alt fa-4x" fa-4x></i>
+                      <p>HTTP Requests</p>
+                    </div>
+                    <div class="skill-col">
+                      <i class="fas fa-cookie-bite fa-4x"></i>
+                      <p>Cookies</p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
           <div class="row">
             <div class="col-4 jobs">
-              <div class="card h-80">
+              <div class="card card-hover h-70">
                 <div class="card-img-top-div"><img class="card-img-top" src="images/experience/sssc.jpg" alt="Card image cap"></div>
                 <div class="card-body">
                   <h4 class="card-title">SSSC Android App<br>(Part-Time)</h4>
-                  <p class="card-text">While in school, I was a member of a resource centre known as the Science Student Success Centre. One of our members created an iOS app to display the SSSC's upcoming events, resources page and grade calculator. As a summer project, I am working on making the Android version. </p>
+                  <p class="card-text">During school, I involved in a resource centre: the Science Student Success Centre. One member created an iOS app to display the SSSC's events, resources page and grade calculator. I am working on making the Android version. </p>
+                  <div class="reveal row">
+                    <div class="skill-col">
+                      <i class="fab fa-android fa-4x"></i>
+                      <p>Android</p>
+                    </div>
+                    <div class="skill-col">
+                      <i class="fab fa-java fa-4x"></i>
+                      <p>Java</p>
+                    </div>
+                    <div class="skill-col">
+                      <i class="fas fa-code fa-4x"></i>
+                      <p>XML Layouts</p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -147,7 +199,9 @@
 
         <div id="contact">
           <div id="contact-div">
-            <h1>Let's talk!</h1>
+            <div data-aos="fade-up" data-aos-duration="500" class="col">
+              <h1>Let's talk!</h1>
+            </div>
             <div class="row contact">
               <div class="col-2 offset-2">
                 <img class="tilt" src="images/contact.JPG">
