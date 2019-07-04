@@ -62,9 +62,7 @@ body {
 }
 
 .main {
-    margin-left: 100px; /* Same as the width of the sidenav */
-    /*font-size: 28px; !* Increased text to enable scrolling *!*/
-    padding: 0px 15px 0 10px;
+    padding: 0px 15px 0 100px;
 }
 
 .sidenav a {
@@ -327,13 +325,16 @@ body {
     .sidenav a {font-size: 18px;}
     .parallax {background: none; height: auto; }
     .parallax h1 {font-weight: 400; font-size: 2em;}
-    .main {margin-left: 0; padding: 0px 5px 0 5px;}
-    #contact a { font-size: 1rem; }
+    .main {padding: 0px 5px 0 5px;}
+    #contact a { font-size: 1.5em; }
     h1 { font-size: 2em !important;}
-    #about p, #about img, #about a { text-align: center; font-size: 1em;}
+    #about p, #about img, #about a { text-align: center; font-size: 1.2em;}
+    #about img { margin-left: 80px; }
+    #insta { margin: 0 0 10px 100px; }
     #hand { height: 30vh; }
-    #contact-div { padding-left: 50px; }
-    #contact img { height: 20vh}
-    #contact .info { padding-top: 5vh;}
-    #contact h1 { font-size: 3em !important; }
+    #contact {height: auto;}
+    #contact-div {  height: 100vh; }
+    #contact img { height: 30vh; margin-left: 80px;}
+    #contact .info { padding-left: 50px; padding-top: 5vh; }
+    #contact h1 { font-size: 3.5em !important; }
 }
