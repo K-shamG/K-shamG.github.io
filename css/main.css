@@ -305,8 +305,25 @@ body {
 }
 
 @media screen and (max-width: 450px) {
-    .sidenav_button{ display: block; }
-    .sidenav {width: 0;}
+    #Kshamina {display: none;}
+    .sidenav_button {
+        display: block; font-size: 2em;
+        text-align: center;
+        text-transform: uppercase;
+        color: #6600cc;
+        text-shadow: 1px 1px white;
+        background-color: black;
+        margin: -4px 5px;
+    }
+    .sidenav_button button {
+        padding: 5px !important;
+        color: white;
+        background-color: black;
+        box-shadow: none;
+        border: none;
+    }
+    .sidenav_button button:focus { outline: none; }
+    .sidenav {width: 0px; position: absolute;}
     .sidenav a {font-size: 18px;}
     .parallax {background: none; height: auto; }
     .parallax h1 {font-weight: 400; font-size: 2em;}
