@@ -48,6 +48,10 @@ body {
     padding: 0px;
 }
 
+.sidenav_button {
+    display: none;
+}
+
 .sidenav a {
     padding: 6px 25px 6px 10px;
     text-decoration: none;
@@ -61,11 +65,6 @@ body {
     margin-left: 100px; /* Same as the width of the sidenav */
     /*font-size: 28px; !* Increased text to enable scrolling *!*/
     padding: 0px 15px 0 10px;
-}
-
-@media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
 }
 
 .sidenav a {
@@ -303,4 +302,21 @@ body {
     padding: 30px 50px 0 0;
     font-size: 4em;
     text-shadow: 4px 4px white;
+}
+
+@media screen and (max-width: 450px) {
+    .sidenav_button{ display: block; }
+    .sidenav {width: 0;}
+    .sidenav a {font-size: 18px;}
+    .parallax {background: none; height: auto; }
+    .parallax h1 {font-weight: 400; font-size: 2em;}
+    .main {margin-left: 0; padding: 0px 5px 0 5px;}
+    #contact a { font-size: 1rem; }
+    h1 { font-size: 2em !important;}
+    #about p, #about img, #about a { text-align: center; font-size: 1em;}
+    #hand { height: 30vh; }
+    #contact-div { padding-left: 50px; }
+    #contact img { height: 20vh}
+    #contact .info { padding-top: 5vh;}
+    #contact h1 { font-size: 3em !important; }
 }
